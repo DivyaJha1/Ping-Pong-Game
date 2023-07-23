@@ -1,0 +1,35 @@
+body {
+  background-image: url("wallpaper.jpg");
+}
+
+#ball {
+  width: 25px;
+  height: 25px;
+  background-image: url("ball2.webp");
+  position: fixed;
+  top: 25px;
+  left: 50%;
+  border-radius: 50%;
+}
+
+#rod1,
+#rod2 {
+  width: 250px;
+  height: 20px;
+  position: fixed;
+  left: 50%;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#rod1 {
+  background-image: url("blue.jpg");
+  top: 0%;
+}
+
+#rod2 {
+  background-image: url("purple.jpg");
+  bottom: 0%;
+}
